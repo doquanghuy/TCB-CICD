@@ -20,6 +20,20 @@
                ReferencedContainer = "container:TCB-CICD.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3CAC97D1253164C6000A642B"
+               BuildableName = "TCB-CICD.app"
+               BlueprintName = "TCB-CICD"
+               ReferencedContainer = "container:TCB-CICD.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
