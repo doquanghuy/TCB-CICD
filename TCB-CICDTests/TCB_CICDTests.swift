@@ -24,7 +24,7 @@ class TCB_CICDTests: XCTestCase {
         XCTAssertEqual(firstNum, secondNum, "the first number is not equal to the second number");
     }
     
-    func testSecond() throw {
+    func testSecond() throws {
         let firstString = "abc";
         let secondString = "def";
         XCTAssertEqual(firstString, secondString, "the first string is not equal to the second string");
