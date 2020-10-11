@@ -22,7 +22,7 @@ platform :ios do
 
    lane :tests do
       puts("running test")
-      run_tests(scheme: "TCB-CICDUnitTests")
+      run_tests()
    end
 
    lane :end do
