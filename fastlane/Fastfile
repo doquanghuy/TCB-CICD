@@ -23,8 +23,4 @@ platform :ios do
    lane :tests do
       run_tests(scheme: "MyAppTests")
    end
-  
-  lane :example do
-      puts("end running test")
-   end 
 end
