@@ -17,6 +17,14 @@ default_platform(:ios)
 
 platform :ios do
    lane :example do
-      puts("this is my first 🚀 lane")
+      puts("begin running test")
    end
+
+   lane :tests do
+      run_tests(scheme: "MyAppTests")
+   end
+  
+  lane :example do
+      puts("end running test")
+   end 
 end
