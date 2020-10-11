@@ -16,9 +16,19 @@ or alternatively using `brew install fastlane`
 
 # Available Actions
 ## iOS
-### ios example
+### ios begin
 ```
-fastlane ios example
+fastlane ios begin
+```
+
+### ios tests
+```
+fastlane ios tests
+```
+
+### ios end
+```
+fastlane ios end
 ```
 
 

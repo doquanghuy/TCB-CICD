@@ -16,11 +16,16 @@
 default_platform(:ios)
 
 platform :ios do
-   lane :example do
+   lane :begin do
       puts("begin running test")
    end
 
    lane :tests do
-      run_tests(scheme: "MyAppTests")
+      puts("running test")
+      run_tests(scheme: "TCB-CICDUnitTests")
+   end
+
+   lane :end do
+      puts("end running test")
    end
 end

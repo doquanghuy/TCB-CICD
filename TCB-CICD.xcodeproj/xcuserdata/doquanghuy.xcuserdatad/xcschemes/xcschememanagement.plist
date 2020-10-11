@@ -9,6 +9,34 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>TCB-CICDUITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>TCB-CICDUnitTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3CAC97D1253164C6000A642B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CAC97E7253164C7000A642B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CAC97F2253164C7000A642B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
