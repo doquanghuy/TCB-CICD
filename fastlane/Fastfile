@@ -37,7 +37,6 @@ platform :ios do
     lane :podInstall do 
         cocoapods(
           clean_install: true,
-          podfile: "./CustomPodfile"
         )
     end
 
