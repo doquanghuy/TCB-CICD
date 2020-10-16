@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0972B94F2BC3A6FA40D65270 /* Pods_TCB_CICD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 103797B83FFD662CCD99CBF3 /* Pods_TCB_CICD.framework */; };
 		3CAC97D6253164C6000A642B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC97D5253164C6000A642B /* AppDelegate.swift */; };
 		3CAC97D8253164C6000A642B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC97D7253164C6000A642B /* SceneDelegate.swift */; };
 		3CAC97DA253164C6000A642B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC97D9253164C6000A642B /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		3CAC97E2253164C7000A642B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CAC97E0253164C7000A642B /* LaunchScreen.storyboard */; };
 		3CAC97ED253164C7000A642B /* TCB_CICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC97EC253164C7000A642B /* TCB_CICDTests.swift */; };
 		3CAC97F8253164C7000A642B /* TCB_CICDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC97F7253164C7000A642B /* TCB_CICDUITests.swift */; };
+		47BA67A9AFE57739E55E5991 /* Pods_TCB_CICD_TCB_CICDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5DF9D11336B100E041E4E2 /* Pods_TCB_CICD_TCB_CICDUITests.framework */; };
+		CE9F6933F3E77A4A089CEC6B /* Pods_TCB_CICDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED9C6EFDB2990500369C484 /* Pods_TCB_CICDTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103797B83FFD662CCD99CBF3 /* Pods_TCB_CICD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCB_CICD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A3E01CBE58291576DAFAB9 /* Pods-TCB-CICD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCB-CICD.debug.xcconfig"; path = "Target Support Files/Pods-TCB-CICD/Pods-TCB-CICD.debug.xcconfig"; sourceTree = "<group>"; };
+		3C50AB022538A34A00E679BB /* TCB_CICD_Framework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TCB_CICD_Framework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAC97D2253164C6000A642B /* TCB-CICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCB-CICD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAC97D5253164C6000A642B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CAC97D7253164C6000A642B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,13 @@
 		3CAC97F3253164C7000A642B /* TCB-CICDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TCB-CICDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAC97F7253164C7000A642B /* TCB_CICDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCB_CICDUITests.swift; sourceTree = "<group>"; };
 		3CAC97F9253164C7000A642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5EFB23780581FAD70A2C8F /* Pods-TCB-CICD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCB-CICD.release.xcconfig"; path = "Target Support Files/Pods-TCB-CICD/Pods-TCB-CICD.release.xcconfig"; sourceTree = "<group>"; };
+		495F31438F4211CD8BD48A70 /* Pods-TCB-CICDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCB-CICDTests.debug.xcconfig"; path = "Target Support Files/Pods-TCB-CICDTests/Pods-TCB-CICDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5DF9D11336B100E041E4E2 /* Pods_TCB_CICD_TCB_CICDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCB_CICD_TCB_CICDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		814A6724D83A7257FC275F4C /* Pods-TCB-CICD-TCB-CICDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCB-CICD-TCB-CICDUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCB-CICD-TCB-CICDUITests/Pods-TCB-CICD-TCB-CICDUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAD24497D7B387B24829335D /* Pods-TCB-CICDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCB-CICDTests.release.xcconfig"; path = "Target Support Files/Pods-TCB-CICDTests/Pods-TCB-CICDTests.release.xcconfig"; sourceTree = "<group>"; };
+		DED9C6EFDB2990500369C484 /* Pods_TCB_CICDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCB_CICDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2F184B4CD929A5B4FAEB48 /* Pods-TCB-CICD-TCB-CICDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCB-CICD-TCB-CICDUITests.release.xcconfig"; path = "Target Support Files/Pods-TCB-CICD-TCB-CICDUITests/Pods-TCB-CICD-TCB-CICDUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0972B94F2BC3A6FA40D65270 /* Pods_TCB_CICD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9F6933F3E77A4A089CEC6B /* Pods_TCB_CICDTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +85,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BA67A9AFE57739E55E5991 /* Pods_TCB_CICD_TCB_CICDUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		070F11C7731D4430EF3C9DDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27A3E01CBE58291576DAFAB9 /* Pods-TCB-CICD.debug.xcconfig */,
+				3E5EFB23780581FAD70A2C8F /* Pods-TCB-CICD.release.xcconfig */,
+				814A6724D83A7257FC275F4C /* Pods-TCB-CICD-TCB-CICDUITests.debug.xcconfig */,
+				EC2F184B4CD929A5B4FAEB48 /* Pods-TCB-CICD-TCB-CICDUITests.release.xcconfig */,
+				495F31438F4211CD8BD48A70 /* Pods-TCB-CICDTests.debug.xcconfig */,
+				AAD24497D7B387B24829335D /* Pods-TCB-CICDTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3CAC97C9253164C6000A642B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				3CAC97EB253164C7000A642B /* TCB-CICDTests */,
 				3CAC97F6253164C7000A642B /* TCB-CICDUITests */,
 				3CAC97D3253164C6000A642B /* Products */,
+				070F11C7731D4430EF3C9DDB /* Pods */,
+				A572BE892964BC4937CE6EC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,17 @@
 			path = "TCB-CICDUITests";
 			sourceTree = "<group>";
 		};
+		A572BE892964BC4937CE6EC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C50AB022538A34A00E679BB /* TCB_CICD_Framework1.framework */,
+				103797B83FFD662CCD99CBF3 /* Pods_TCB_CICD.framework */,
+				7B5DF9D11336B100E041E4E2 /* Pods_TCB_CICD_TCB_CICDUITests.framework */,
+				DED9C6EFDB2990500369C484 /* Pods_TCB_CICDTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CAC97FC253164C7000A642B /* Build configuration list for PBXNativeTarget "TCB-CICD" */;
 			buildPhases = (
+				29554D1C932696EBAD849E84 /* [CP] Check Pods Manifest.lock */,
 				3CAC97CE253164C6000A642B /* Sources */,
 				3CAC97CF253164C6000A642B /* Frameworks */,
 				3CAC97D0253164C6000A642B /* Resources */,
+				121EE66E136E1509F3563A0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CAC97FF253164C7000A642B /* Build configuration list for PBXNativeTarget "TCB-CICDTests" */;
 			buildPhases = (
+				480EE777FDB2B761F05F891F /* [CP] Check Pods Manifest.lock */,
 				3CAC97E4253164C7000A642B /* Sources */,
 				3CAC97E5253164C7000A642B /* Frameworks */,
 				3CAC97E6253164C7000A642B /* Resources */,
@@ -170,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3CAC9802253164C7000A642B /* Build configuration list for PBXNativeTarget "TCB-CICDUITests" */;
 			buildPhases = (
+				157FE905A6A69DC335A1C1E2 /* [CP] Check Pods Manifest.lock */,
 				3CAC97EF253164C7000A642B /* Sources */,
 				3CAC97F0253164C7000A642B /* Frameworks */,
 				3CAC97F1253164C7000A642B /* Resources */,
+				CF79D911726AA57AC3F0AC07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +299,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		121EE66E136E1509F3563A0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCB-CICD/Pods-TCB-CICD-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCB-CICD/Pods-TCB-CICD-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCB-CICD/Pods-TCB-CICD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		157FE905A6A69DC335A1C1E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCB-CICD-TCB-CICDUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29554D1C932696EBAD849E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCB-CICD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		480EE777FDB2B761F05F891F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCB-CICDTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF79D911726AA57AC3F0AC07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCB-CICD-TCB-CICDUITests/Pods-TCB-CICD-TCB-CICDUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCB-CICD-TCB-CICDUITests/Pods-TCB-CICD-TCB-CICDUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCB-CICD-TCB-CICDUITests/Pods-TCB-CICD-TCB-CICDUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3CAC97CE253164C6000A642B /* Sources */ = {
@@ -433,6 +583,7 @@
 		};
 		3CAC97FD253164C7000A642B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27A3E01CBE58291576DAFAB9 /* Pods-TCB-CICD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +603,7 @@
 		};
 		3CAC97FE253164C7000A642B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E5EFB23780581FAD70A2C8F /* Pods-TCB-CICD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +623,7 @@
 		};
 		3CAC9800253164C7000A642B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495F31438F4211CD8BD48A70 /* Pods-TCB-CICDTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +646,7 @@
 		};
 		3CAC9801253164C7000A642B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD24497D7B387B24829335D /* Pods-TCB-CICDTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +669,7 @@
 		};
 		3CAC9803253164C7000A642B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814A6724D83A7257FC275F4C /* Pods-TCB-CICD-TCB-CICDUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +690,7 @@
 		};
 		3CAC9804253164C7000A642B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC2F184B4CD929A5B4FAEB48 /* Pods-TCB-CICD-TCB-CICDUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

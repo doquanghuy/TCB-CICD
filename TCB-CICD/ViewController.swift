@@ -6,14 +6,16 @@
 //
 
 import UIKit
+import TCB_CICD_Framework1
+import TCB_CICD_Framework2
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let view = TCB_CICD_View.instantiate(autolayout: false)
+        view.frame = self.view.bounds
+        view.setText(text: "\(Service.getData(firstNum: 2, secondNum: 3))")
+        self.view.addSubview(view)
     }
-
-
 }
 

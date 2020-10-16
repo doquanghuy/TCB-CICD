@@ -20,10 +20,26 @@ platform :ios do
       puts("begin running test")
    end
 
-   lane :tests do
-      puts("running test")
+   desc "Run unit and ui tests"
+   lane :runTests do
       run_tests()
    end
+
+    desc "Build application"
+    lane :buildAppWithGym do |options|
+    gym(
+      workspace: "TCB-CICD.xcworkspace",
+      scheme: "TCB-CICD",
+      clean: true,
+    )
+    end
+
+    lane :podInstall do 
+        cocoapods(
+          clean_install: true,
+          podfile: "./CustomPodfile"
+        )
+    end
 
    lane :end do
       puts("end running test")
