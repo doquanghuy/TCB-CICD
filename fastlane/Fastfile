@@ -26,11 +26,12 @@ platform :ios do
    end
 
     desc "Build application"
-    lane :buildAppWithGym do |options|
+    lane :buildApp do
     gym(
       workspace: "TCB-CICD.xcworkspace",
       scheme: "TCB-CICD",
       clean: true,
+      skip_archive: true,
     )
     end
 

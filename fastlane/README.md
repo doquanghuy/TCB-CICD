@@ -26,9 +26,9 @@ fastlane ios begin
 fastlane ios runTests
 ```
 Run unit and ui tests
-### ios buildAppWithGym
+### ios buildApp
 ```
-fastlane ios buildAppWithGym
+fastlane ios buildApp
 ```
 Build application
 ### ios podInstall
