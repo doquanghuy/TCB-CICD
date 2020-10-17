@@ -21,9 +21,19 @@ or alternatively using `brew install fastlane`
 fastlane ios begin
 ```
 
-### ios tests
+### ios runTests
 ```
-fastlane ios tests
+fastlane ios runTests
+```
+Run unit and ui tests
+### ios buildAppWithGym
+```
+fastlane ios buildAppWithGym
+```
+Build application
+### ios podInstall
+```
+fastlane ios podInstall
 ```
 
 ### ios end
