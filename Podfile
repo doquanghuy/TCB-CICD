@@ -5,7 +5,7 @@ target 'TCB-CICD' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'TCB-CICD-Framework1', :git => 'https://github.com/doquanghuy/TCB-CICD-Framework1.git', :tag => '1.0.12'
-  pod 'TCB-CICD-Framework2', :git => 'https://github.com/doquanghuy/TCB-CICD-Framework2.git', :tag => '1.0.14'
+  pod 'TCB-CICD-Framework2', :git => 'https://github.com/doquanghuy/TCB-CICD-Framework2.git', :tag => '1.0.15'
   # Pods for TCB-CICD
 
   target 'TCB-CICDTests' do
