@@ -31,6 +31,7 @@ platform :ios do
       workspace: "TCB-CICD.xcworkspace",
       scheme: "TCB-CICD",
       clean: true,
+      destination: "platform=iOS Simulator,name=iPhone 8"
       skip_archive: true,
     )
     end
